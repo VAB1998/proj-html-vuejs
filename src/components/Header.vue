@@ -1,17 +1,19 @@
 <template>
     <header>
-        <h1>Header
-            <i class="fas fa-flushed"></i>
-        </h1>
+        <DiscountBanner />
+        <Navbar />
     </header>
 </template>
 
 <script>
+import DiscountBanner from './DiscountBanner'
+import Navbar from './Navbar'
 
 export default {
     name: 'Header',
     components: {
-        
+        DiscountBanner,
+        Navbar
     }
 }
 </script>
