@@ -1,5 +1,9 @@
 <template>
   <div id="app">
+    <h1 class="text-success">
+      App
+      <i class="fas fa-arrow-up"></i>
+    </h1>
     <Header />
     <Main />
     <Footer />
@@ -22,5 +26,5 @@ export default {
 </script>
 
 <style lang="scss">
-
+@import './style/general.scss';
 </style>

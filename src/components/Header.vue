@@ -1,6 +1,8 @@
 <template>
     <header>
-        <h1>Header</h1>
+        <h1>Header
+            <i class="fas fa-flushed"></i>
+        </h1>
     </header>
 </template>
 
