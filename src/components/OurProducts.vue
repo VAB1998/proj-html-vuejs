@@ -60,9 +60,5 @@ export default {
             }
         }
     }
-
-    
-
-
 }
 </style>

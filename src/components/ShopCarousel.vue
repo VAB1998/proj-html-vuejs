@@ -1,13 +1,12 @@
 <template>
-    <div class="main_carousel">
+    <div class="shop_carousel">
         <!-- Previous Image -->
         <div class="previous_image">
             <i class="fas fa-angle-left"></i>
         </div>
         <!-- Image Slider -->
         <div class="image_slider">
-            <img src="../assets/images/choco-chip-cookies-700x893.jpg" alt="Choco cookies">
-            <img src="../assets/images/strawberry-jam-cookies-700x893.jpg" alt="">
+            
         </div>
         <!-- Next Image -->
         <div class="next_image">
@@ -19,14 +18,14 @@
 <script>
 
 export default {
-    name: 'MainCarousel',
+    name: 'ShopCarousel',
 }
 </script>
 
 <style lang="scss" scoped>
 @import '../style/variables.scss';
 
-.main_carousel{
+.shop_carousel{
     /* Spacing and Dimensions */
     width: 100%;
     //Positioning the Icons
