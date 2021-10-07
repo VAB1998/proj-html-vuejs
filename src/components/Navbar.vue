@@ -2,9 +2,9 @@
     
         <nav id="cs_navbar">
             
-                <div class="navbar-logo">
+                <div class="navbar-logo h-75">
                     <a href="#">
-                        <img class="h-75" src="../assets/images/avada-bakery-logo-retina-200x97.png" alt="">
+                        <img class="h-100" src="../assets/images/avada-bakery-logo-retina-200x97.png" alt="">
                     </a>
                 </div>
                 
@@ -22,7 +22,6 @@
                         </a>
                     </li>
                 </ul>
-
         </nav>
 
 </template>
@@ -67,6 +66,7 @@ export default {
     //Flex Settings
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     //Other Settings
     position: absolute;

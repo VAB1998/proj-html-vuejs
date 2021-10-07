@@ -33,14 +33,11 @@ export default {
     background-size: cover;
     background-position: center center;
     //Spacing and Dimensions
-    height: 900px;
+    height: 830px;
 
 
     h6{
-        //Style
-        color: #676371;
-        text-transform: uppercase;
-        font-size: .8rem;
+        @include subtitle_style;
     }
 
     h2{
