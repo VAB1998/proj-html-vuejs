@@ -86,8 +86,7 @@ footer{
     .footer_subscribe{
         h3{
             //Style
-            color: $primary_color;
-            font-weight: bold;
+            @include title_style;
             //Spacing and Dimensions
             margin-bottom: 36px;
         }
@@ -135,5 +134,7 @@ footer{
         display: flex;
         justify-content: space-between;
     }
+
+    
 }
 </style>

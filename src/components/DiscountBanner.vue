@@ -21,6 +21,7 @@ export default {
 
 <style lang="scss" scoped>
 @import '../style/variables.scss';
+
 #discount_banner{
     //Style
     background-color: $light_gray_color;
