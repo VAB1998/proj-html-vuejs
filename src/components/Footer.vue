@@ -22,7 +22,7 @@
                     <button>Subscribe</button>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-9">
                     <div class="copyright">
                         <p>
                             <!-- <i class="far fa-copyright"></i> -->
@@ -33,8 +33,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="socials">
+                <div class="col-3">
+                    <div class="socials text-end">
                         <SocialLink v-for="(link, index) in SocialLinks" :key="index"
                         :url="link.url" :icon="link.icon" />
                     </div>
@@ -99,6 +99,7 @@ footer{
             border: 1px solid $light_gray_color;
             //Spacing and Dimensions
             height: 47px;
+            width: calc(100% - 180px - 6px);
             margin-right: 6px;
             
 
@@ -117,7 +118,7 @@ footer{
             border-radius: 6px;
             //Spacing and Dimensions
             height: 47px;
-            width: 160px;
+            width: 180px;
         }
     }
 
@@ -132,7 +133,7 @@ footer{
     .socials{
         //Flex Settings
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 }
 </style>
