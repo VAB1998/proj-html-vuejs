@@ -11,6 +11,13 @@ $accent_color : #000;
     font-weight: bold;
 }
 
+@mixin subtitle_style {
+    //Style
+    color: #676371;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
 @mixin link_style{
     //Style
     color: $primary_color;
