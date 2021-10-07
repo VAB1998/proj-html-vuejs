@@ -59,14 +59,18 @@ export default {
 
 #cs_navbar{
     //Style
-    background-color: $secondary_color;
     text-transform: uppercase;
     font-size: .8rem;
     //Spacing and Dimensions
     height: 100px;
+    padding: 0 20px;
     //Flex Settings
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+
+    //Other Settings
+    position: absolute;
+    width: 100%;
 
     ul{
     list-style-type: none;
