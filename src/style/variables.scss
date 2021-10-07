@@ -6,13 +6,37 @@ $accent_color : #000;
 
 //Feedback colors : success warning error
 
+@mixin title_style{
+    color: $primary_color;
+    font-weight: bold;
+}
+
 @mixin link_style{
     //Style
     color: $primary_color;
     text-decoration: none;
 }
 
-@mixin dark_button_style{
-    //Spacing and dimensions
-    height: 47px;
+@mixin light_link_button{
+    //Style
+    color: $primary_color;
+    background-color: #ffffff;
+    border-radius: 6px;
+    text-decoration: none;
+    //Spacing and Dimensions
+    padding: 12px 24px;
+    //Hover Effect Settings
+    transition: .3s linear;
+}
+
+@mixin dark_link_button{
+    //Style
+    color: #ffffff;
+    background-color: $primary_color;
+    border-radius: 6px;
+    text-decoration: none;
+    //Spacing and Dimensions
+    padding: 12px 24px;
+    //Hover Effect Settings
+    transition: .3s linear;
 }
