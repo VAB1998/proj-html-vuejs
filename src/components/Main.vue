@@ -2,18 +2,21 @@
     <main>
         <Jumbotron />
         <OurProducts />
+        <CorporateWeddings />
     </main>
 </template>
 
 <script>
 import Jumbotron from './Jumbotron'
 import OurProducts from './OurProducts'
+import CorporateWeddings from './CorporateWeddings'
 
 export default {
     name: 'Main',
     components: {
         Jumbotron,
         OurProducts,
+        CorporateWeddings,
     }
 }
 </script>
