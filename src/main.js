@@ -1,12 +1,12 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-import { BootstrapVue, DropdownPlugin } from 'bootstrap-vue'
+import { BootstrapVue } from 'bootstrap-vue'
 
 Vue.config.productionTip = false
 
 Vue.use(BootstrapVue)
-Vue.use(DropdownPlugin)
+// Vue.use(DropdownPlugin)
 
 import 'bootstrap/scss/bootstrap.scss'
 
