@@ -6,7 +6,8 @@
         </div>
         <!-- Image Slider -->
         <div class="image_slider">
-            
+            <CarouselCard v-for="(card, index) in CarouselCards" :key="index" 
+            :title="card.title" :price="card.price" :url="card.url" :imageSource="card.imageSource"/>
         </div>
         <!-- Next Image -->
         <div class="next_image">
@@ -16,9 +17,20 @@
 </template>
 
 <script>
-
+import CarouselCard from './CarouselCard.vue'
+//------Data------
+import CarouselCards from '../data/CarouselCards.js'
 export default {
     name: 'ShopCarousel',
+    data : function(){
+        return {
+            CarouselCards
+        }
+    },
+
+    components: {
+        CarouselCard
+    }
 }
 </script>
 
@@ -56,12 +68,9 @@ export default {
     }
 
     .image_slider{
-        img:first-child{
-            margin-right: 20px;
-        }
-        img{
-            width: calc(100% / 2 - 10px);
-        }
+        //Flex Settings
+        display: flex;
+        justify-content: space-between;
     }
 }
 </style>
