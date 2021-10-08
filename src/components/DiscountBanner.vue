@@ -3,7 +3,6 @@
         <div class="container_fluid h-100">
             <div class="row h-100">
                 <div class="col-12 text-center">
-                    <!-- Conviene inserire il valore percentuae dinamicamente??????!!!!!! -->
                     <p>Free International Shipping - 10% OFF SITE</p> 
                 </div>
             </div>
@@ -15,7 +14,6 @@
 
 export default {
     name: 'DiscountBanner',
-
 }
 </script>
 
@@ -26,6 +24,7 @@ export default {
     //Style
     background-color: $light_gray_color;
     color: $primary_color;
+    //-spacing and Dimensions
     height: 48px;
     p{
         line-height: 48px;

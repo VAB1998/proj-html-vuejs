@@ -22,11 +22,16 @@ export default {
 <style lang="scss" scoped>
 @import '../style/variables.scss';
 
-        li{
-            margin-right: 15px;
-            a{
-                @include link_style;
-            }
-        }
-    
+li{
+    //Spacing and Dimensions
+    height: 100%;
+    a{
+        @include link_style;
+        line-height: 40px;
+    }
+
+    &.active{
+        border-bottom: 2px solid $primary_color;
+    }
+}
 </style>

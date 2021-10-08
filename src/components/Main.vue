@@ -26,7 +26,5 @@ export default {
 
 <style lang="scss" scoped>
 @import '../style/variables.scss';
-main{
-    // background-color: cadetblue;
-}
+
 </style>

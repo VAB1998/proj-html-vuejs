@@ -78,8 +78,12 @@ footer{
         //Style
         list-style-type: none;
         padding-left: 0;
+        text-transform: capitalize;
+        //Spacing and Dimensions
+        width: 80%;
         //Flex Settings
         display: flex;
+        justify-content: space-between;
         align-items: center;
     }
 
@@ -134,7 +138,5 @@ footer{
         display: flex;
         justify-content: space-between;
     }
-
-    
 }
 </style>

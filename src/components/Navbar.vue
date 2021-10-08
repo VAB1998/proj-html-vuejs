@@ -1,18 +1,18 @@
 <template>
-    
+        <!-- Navbar -->
         <nav id="cs_navbar">
-            
+                <!-- Navbar Logo -->
                 <div class="navbar-logo h-75">
                     <a href="#">
                         <img class="h-100" src="../assets/images/avada-bakery-logo-retina-200x97.png" alt="">
                     </a>
                 </div>
-                
+                <!-- Main Menu -->
                 <ul class="nav_main_menu">
                     <NavMenuLink v-for="(link, index) in mainMenuLinks"  :key="index" 
                     :currentPage="link.current" :text="link.text" :anchorTag="link.url"/>
                 </ul>
-
+                <!-- Side Menu -->
                 <ul class="nav_side_menu">
                     <NavMenuLink v-for="(link, index) in sideMenuLinks"  :key="index" 
                     :text="link.text" :anchorTag="link.url"/>
@@ -67,22 +67,29 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     //Other Settings
     position: absolute;
     width: 100%;
 
     ul{
+    //Style
     list-style-type: none;
+    //Spacing and Sizing
     padding-left: 0;
     margin: 0;
     //Flex Settings
     display: flex;
-    align-items: center;
+    height: 40px;
 
         a{
             @include link_style;
         }
+    }
+
+    ul.nav_main_menu{
+        width: 40%;
+        //Flex Settings
+        justify-content: space-between;
     }
 }
 </style>

@@ -10,7 +10,6 @@
                         <h2>Baking Special Moments</h2>
                     </div>
                 </div>
-
                 <div class="col-6">
                     <div class="image_wrapper">
                         <img src="../assets/images/corporate-bg.jpg" alt="Corporate">

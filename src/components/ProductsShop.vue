@@ -34,6 +34,7 @@ export default {
 @import '../style/variables.scss';
 
 #products_shop{
+    //Spacing and Dimensions
     height: 680px;
 
     .title{
@@ -42,8 +43,10 @@ export default {
         }
     }
 
-    p{
+    p{  
+        //Style
         color: #676371;
+        //Spacing and Dimensions
         margin: 20px 0;
     }
 
