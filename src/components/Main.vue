@@ -4,6 +4,7 @@
         <OurProducts />
         <CorporateWeddings />
         <ProductsShop />
+        <TellUsProcess />
     </main>
 </template>
 
@@ -12,6 +13,7 @@ import Jumbotron from './Jumbotron'
 import OurProducts from './OurProducts'
 import CorporateWeddings from './CorporateWeddings'
 import ProductsShop from './ProductsShop'
+import TellUsProcess from './TellUsProcess'
 
 export default {
     name: 'Main',
@@ -20,6 +22,7 @@ export default {
         OurProducts,
         CorporateWeddings,
         ProductsShop,
+        TellUsProcess
     }
 }
 </script>
