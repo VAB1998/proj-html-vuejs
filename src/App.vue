@@ -25,4 +25,8 @@ export default {
 <style lang="scss">
 @import './style/general.scss';
 @import './style/variables.scss';
+
+#app{
+  font-family: $primary_font;
+}
 </style>
